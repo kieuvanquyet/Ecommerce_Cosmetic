@@ -1,0 +1,241 @@
+
+.main-ctsp {
+  /* display: flex; */
+  padding: 10px;
+  /* margin-top: 50px; */
+}
+
+main .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main .container .pro {
+  display: flex;
+  justify-content: center;
+  /* border-bottom: 1px solid #000; */
+  /* padding: 20px 0px; */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.container .pro img {
+  width: 400px;
+  height: 400px;
+  /* padding-right: 100px; */
+  margin: 0px 100px 0px 0px;
+  /* border: 5px solid #026f45; */
+  box-shadow: 0 0 10px rgba(58, 58, 58, 0.1);
+}
+.name p {
+  font-size: 30px;
+}
+.gia {
+  display: flex;
+  margin: 20px 0px;
+}
+.gia p {
+  margin: 0px 20px;
+}
+.gia .price {
+  color: chocolate;
+  font-size: 22px;
+  font-weight: 560;
+}
+.nguongoc {
+  margin: 30px 0;
+  color: #888;
+  font-size: 14px;
+}
+.nguongoc .conlai {
+  margin: 10px 0px;
+}
+main .container .pro .detail {
+  width: 50%;
+  margin-left: 100px;
+}
+
+main .container .pro .detail h5 {
+  font-size: 20px;
+}
+
+.pro .detail .quality {
+  display: flex;
+  /* padding: 0px 160px 63px 0px; */
+  padding-bottom: 70px;
+  /* margin-bottom: ; */
+  
+}
+.quality p {
+  color: #888;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.quality input{
+    width: 50px;  
+}
+.pro .detail .quality .ip-soluong {
+  width: 60px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  background-color: #fff;
+}
+.ip-themgiohang {
+  width: 170px;
+}
+.form-hidden {
+  border: none;
+}
+
+.action {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: flex-end;
+  /* margin-top: 90px; */
+}
+
+
+
+.form-giohang,
+.form-muangay {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: auto;
+  
+
+}
+.form-muangay{
+  margin-left: 10px;
+}
+main .container .pro .detail .action input[type="submit"] {
+  padding: 20px;
+  /* margin-right: 86px; */
+  cursor: pointer;
+  background-color: #00472ce7;
+  width: 200px;
+  border: none;
+  /* width: auto; */
+  color: #fff;
+  border:2px solid #00472c;
+  /* height: 50px; */
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+
+  
+}
+
+main .container .pro .detail .action input[type="submit"]:hover {
+  background-color: #00472c;
+  color: #fff;
+}
+
+.description {
+  /* padding: 20px 0px; */
+  margin: 40px 0px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  /* width: ; */
+}
+.description p {
+  color: #000;
+  line-height: 1.5;
+}
+
+main .container .description img {
+  width: 100px;
+  margin: 10px 0px;
+  margin-left: 10px;
+}
+
+main .container .description p {
+  margin: 10px;
+  color: #6f6f6f;
+  font-size: 15px;
+}
+
+.comment {
+  /* border: 1px solid gray; */
+  /* padding: 10px; */
+  padding-top: 30px;
+  /* position: relative; */
+  margin-bottom: 50px;
+  height: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comment h5 {
+  padding: 0 10px;
+  font-size: 26px;
+  line-height: 20px;
+  background-color: #fff;
+  position: absolute;
+  top: -10px;
+  left: 30px;
+}
+.comment table {
+  width: 100%;
+}
+/* .comment table tr{
+    align-items: center;
+    justify-content: center;
+} */
+.comment table td {
+  width: calc(100 / 3);
+  /* border-bottom: 0.5px solid #363535; */
+  text-align: center;
+  padding: 15px 0px;
+}
+.comment table th {
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid #363535;
+}
+main .container .comment table td,
+main .container .comment table th {
+  width: calc(100% / 3);
+  text-align: start;
+}
+
+main .container .comment table th {
+  padding: 10px;
+}
+
+main .container .comment table td {
+  padding: 10px;
+  border-top: 1px solid #000;
+}
+
+main .container .samePro {
+  /* border: 1px solid #000; */
+  /* padding: 10px; */
+  padding-top: 30px;
+  /* position: relative; */
+  margin-bottom: 50px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main .container .samePro h5 {
+  padding: 0 10px;
+  font-size: 26px;
+  line-height: 20px;
+  background-color: #fff;
+  position: absolute;
+  top: -10px;
+  left: 30px;
+}
+
+main .container .samePro section {
+  display: flex;
+  justify-content: space-around;
+}

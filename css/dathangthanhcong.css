@@ -1,0 +1,25 @@
+.dathangthanhcong{
+    text-align: center;
+    box-shadow: 0 0 10px rgba(78, 91, 80, 0.4);
+    /* width: 1200px; */
+    margin:30px 100px ;
+    height: 400px;
+}
+.dathangthanhcong img{
+    width: 100px;
+    margin:50px 0px 0px;
+}
+.dathangthanhcong h4{
+    /* font-size: 50px; */
+    margin: 20px;
+}
+.dathangthanhcong input{
+  background-color: rgba(0, 82, 51, 0.942);
+  color: white;
+  margin-top: 20px;
+  width: 170px;
+  padding: 10px;
+}
+.dathangthanhcong input :hover{
+    background-color:#00472C
+}

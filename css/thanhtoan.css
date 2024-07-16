@@ -1,0 +1,105 @@
+.content-tt{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    margin: 10px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+.ip-tt{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    margin-right: 10px;
+}
+.tt-thanhtoan{
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+}
+.lb-tt{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tt-donhang{
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.box-sp-donhang{
+    display: flex;
+    /* border-bottom: 1px solid gray; */
+    margin-top: 10px;
+    
+}
+
+.box-sp-donhang .tt-sp-donhang{
+    margin-left: 20px;
+    
+}
+
+.box-sp-donhang .tt-sp-donhang p{
+    margin-bottom: 20px;
+    
+}
+.tt-sp-donhang strong{
+color: black;
+}
+.tt-sp-donhang p{
+    color: #575757;
+    font-size: 15px;
+}
+.tt-sp-donhang span{
+    color: #F09116 !important;
+}
+
+.box-sp-donhang img{
+    width: 100px;
+    height: 100px;
+}
+
+.tamtinh{
+    text-align: end;
+    font-variant: small-caps;
+    margin: 10px;
+   
+}
+
+.vanchuyen{
+    margin: 10px;
+}
+
+.vanchuyen .tong{
+    text-align: end;
+}
+
+.ht-thanhtoan{
+    margin: 10px;
+}
+
+.ht-thanhtoan input{
+    margin-bottom: 10px;
+}
+
+.ht-thanhtoan input[type=submit]{
+    padding: 10px;
+    color: aliceblue;
+    background-color:  #00472cdd;
+}
+
+.ht-thanhtoan input[type=submit]:hover{
+    background-color: #00472c;
+}
+
+.ht-thanhtoan .btn-tt{
+    
+    color: rgb(255, 255, 255);
+    
+    text-align: end;
+}
+
+

@@ -1,0 +1,161 @@
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+  width: 100%;
+}
+.form-lsdh {
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  /* text-align: center; */
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* width: 100px; */
+}
+input:hover {
+  background-color: #adacac9d;
+}
+.submit {
+  margin-top: 20px;
+  /* width: 70px;
+    height: 30px;
+    border: 1px solid gray; */
+}
+table {
+  width: 100%;
+}
+/* CSS cho ô header (th) */
+.danhmuc th {
+  background-color: #4f4f4f;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* CSS cho các ô dữ liệu (td) */
+.danhmuc td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.form-locsp {
+  /* display: flex; */
+  flex-direction: initial;
+  /* align-items: center; */
+  justify-content: center;
+}
+.form-locsp select {
+  height: 35px;
+  margin: 0px 20px;
+}
+.thongbao {
+  color: green;
+}
+
+.products {
+  display: flex;
+  width: 1300px;
+  margin-left: 40px;
+}
+.product {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  margin: 20px 30px 30px 16px;
+  width: 65%;
+}
+.container h4 {
+  text-align: center;
+  margin: 10px 0px;
+}
+.top5-banchay {
+  /* right: ; */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 20px 30px 0px;
+}
+.top5-banchay .p {
+  margin-left: 230px;
+  font-size: 15px;
+  color: #6b6b6b;
+  padding-bottom: 10px;
+}
+.sanpham {
+  height: 90px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.noidung {
+  display: flex;
+}
+.noidung img {
+  /* align-items: center; */
+  margin-right: 10px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
+  width: 80px;
+  height: 70px;
+  padding: 7px;
+  margin-top: 7px;
+}
+.noidung-sp p {
+  color: #888;
+  font-size: 14px;
+}
+.noidung-sp h5{
+  /* display: block ; */
+  font-size: 15px;
+  color: rgb(9, 190, 184);
+}
+.top{
+  width: 100%;
+  display: flex;
+  /* */
+  margin: 20px 30px 200px 56px;
+  
+}
+.tongquan{
+  width: 70%;
+}
+.top5-sanpham{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 390px;
+  margin-right: 40px;
+}
+.top5-sanpham .p{
+  margin-left: 215px;
+  font-size: 15px;
+  color: #6b6b6b;
+  padding-bottom: 10px;
+  /* margin-right: 20px; */
+}
